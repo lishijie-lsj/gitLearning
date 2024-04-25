@@ -1,0 +1,8 @@
+Pytest
+Pytest-html
+Pytest-xdist
+Pytest-ordering
+Pytest-rerunfailures
+Allure-pytest
+pyyaml
+requests
