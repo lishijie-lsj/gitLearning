@@ -1,0 +1,78 @@
+  bash arg: -p
+  bash arg: com.mini.myBMW.preseries.cn.univ
+  bash arg: -v-v-v
+  bash arg: 200
+:Monkey: seed=1712273496941 count=200
+:AllowPackage: com.mini.myBMW.preseries.cn.univ
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.mini.myBMW.preseries.cn.univ/com.mobileconnected.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.mini.myBMW.preseries.cn.univ/com.mobileconnected.MainActivity } in package com.mini.myBMW.preseries.cn.univ
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(795.0,1270.0)
+:Sending Touch (ACTION_UP): 0:(886.1687,1264.4681)
+:Sending Touch (ACTION_DOWN): 0:(106.0,67.0)
+:Sending Touch (ACTION_UP): 0:(108.298836,50.222984)
+:Sending Touch (ACTION_DOWN): 0:(660.0,1928.0)
+:Sending Touch (ACTION_UP): 0:(665.24133,1930.407)
+:Sending Touch (ACTION_DOWN): 0:(219.0,1926.0)
+:Sending Touch (ACTION_UP): 0:(255.60194,1950.8638)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(895.0,1923.0)
+:Sending Touch (ACTION_UP): 0:(941.13403,1833.3121)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.mini.myBMW.preseries.cn.univ/com.mobileconnected.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.mini.myBMW.preseries.cn.univ/com.mobileconnected.MainActivity } in package com.mini.myBMW.preseries.cn.univ
+:Sending Touch (ACTION_DOWN): 0:(842.0,1121.0)
+:Sending Touch (ACTION_UP): 0:(839.1309,1119.6222)
+:Sending Touch (ACTION_DOWN): 0:(576.0,1817.0)
+:Sending Touch (ACTION_UP): 0:(561.07245,1812.4293)
+:Sending Touch (ACTION_DOWN): 0:(258.0,1462.0)
+:Sending Touch (ACTION_UP): 0:(188.66563,1500.9443)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.bbk.launcher2/.Launcher } in package com.bbk.launcher2
+    // activityResuming(com.bbk.launcher2)
+    // Rejecting resume of package com.bbk.launcher2
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+    //[calendar_time:2024-04-02 17:01:30.584  system_uptime:135755668]
+    // Sending event #100
+:Sending Touch (ACTION_DOWN): 0:(919.0,1324.0)
+:Sending Touch (ACTION_UP): 0:(914.3912,1324.6605)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(780.0,646.0)
+:Sending Touch (ACTION_UP): 0:(746.3909,636.97455)
+:Sending Touch (ACTION_DOWN): 0:(228.0,1858.0)
+:Sending Touch (ACTION_UP): 0:(230.798,1864.5939)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(645.0,482.0)
+:Sending Touch (ACTION_UP): 0:(643.8422,477.00208)
+:Sending Touch (ACTION_DOWN): 0:(633.0,2166.0)
+:Sending Touch (ACTION_UP): 0:(618.66156,2163.114)
+:Sending Touch (ACTION_DOWN): 0:(477.0,263.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.mms/.ui.ConversationList } in package com.android.mms
+:Sending Touch (ACTION_UP): 0:(446.0604,325.28995)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.mini.myBMW.preseries.cn.univ/com.mobileconnected.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.mini.myBMW.preseries.cn.univ/com.mobileconnected.MainActivity } in package com.mini.myBMW.preseries.cn.univ
+    // activityResuming(com.mini.myBMW.preseries.cn.univ)
+:Sending Touch (ACTION_DOWN): 0:(839.0,32.0)
+:Sending Touch (ACTION_UP): 0:(833.6927,49.619297)
+Events injected: 200
+:Sending rotation degree=0, persist=false
+:Dropped: keys=1 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=1450ms (0ms mobile, 0ms wifi, 1450ms not connected)
+// Monkey finished
